@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/newsImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Breaking news"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/newsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text="dmmawlmdşamdşlawşldşl"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/newsPublishedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="165dp"
+            android:padding="2dp"
+            android:text="16.6.2022"
+            android:textSize="10sp" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
